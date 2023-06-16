@@ -16,5 +16,10 @@ namespace HW_Form
         {
             InitializeComponent();
         }
+
+        private void 喵_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

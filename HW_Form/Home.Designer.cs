@@ -143,17 +143,17 @@
             // 
             // spiltContainer
             // 
-            this.spiltContainer.Location = new System.Drawing.Point(194, 33);
+            this.spiltContainer.Location = new System.Drawing.Point(195, 33);
             this.spiltContainer.Name = "spiltContainer";
-            this.spiltContainer.Size = new System.Drawing.Size(1246, 657);
+            this.spiltContainer.Size = new System.Drawing.Size(926, 590);
             this.spiltContainer.TabIndex = 9;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1483, 730);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(1159, 653);
             this.Controls.Add(this.spiltContainer);
             this.Controls.Add(this.btnGuess);
             this.Controls.Add(this.btnPictureViewer);
@@ -166,6 +166,7 @@
             this.Name = "Home";
             this.RightToLeftLayout = true;
             this.Text = "Home Page";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.ResumeLayout(false);
 
         }

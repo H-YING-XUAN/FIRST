@@ -58,7 +58,7 @@
             // 
             this.txtBoxDollar.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtBoxDollar.Location = new System.Drawing.Point(286, 79);
-            this.txtBoxDollar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxDollar.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxDollar.Name = "txtBoxDollar";
             this.txtBoxDollar.Size = new System.Drawing.Size(84, 29);
             this.txtBoxDollar.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             this.btnMonthPay.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnMonthPay.Location = new System.Drawing.Point(150, 255);
-            this.btnMonthPay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMonthPay.Margin = new System.Windows.Forms.Padding(2);
             this.btnMonthPay.Name = "btnMonthPay";
             this.btnMonthPay.Size = new System.Drawing.Size(99, 31);
             this.btnMonthPay.TabIndex = 2;
@@ -113,7 +113,7 @@
             // 
             this.txtBoxExpire.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtBoxExpire.Location = new System.Drawing.Point(286, 116);
-            this.txtBoxExpire.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxExpire.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxExpire.Name = "txtBoxExpire";
             this.txtBoxExpire.Size = new System.Drawing.Size(84, 29);
             this.txtBoxExpire.TabIndex = 6;
@@ -123,7 +123,7 @@
             // 
             this.txtBoxRate.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtBoxRate.Location = new System.Drawing.Point(286, 153);
-            this.txtBoxRate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxRate.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxRate.Name = "txtBoxRate";
             this.txtBoxRate.Size = new System.Drawing.Size(84, 29);
             this.txtBoxRate.TabIndex = 7;
@@ -133,7 +133,7 @@
             // 
             this.txtBoxDownPay.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtBoxDownPay.Location = new System.Drawing.Point(286, 186);
-            this.txtBoxDownPay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxDownPay.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxDownPay.Name = "txtBoxDownPay";
             this.txtBoxDownPay.Size = new System.Drawing.Size(84, 29);
             this.txtBoxDownPay.TabIndex = 8;
@@ -143,7 +143,7 @@
             // 
             this.btnTotal.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnTotal.Location = new System.Drawing.Point(268, 255);
-            this.btnTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTotal.Margin = new System.Windows.Forms.Padding(2);
             this.btnTotal.Name = "btnTotal";
             this.btnTotal.Size = new System.Drawing.Size(101, 31);
             this.btnTotal.TabIndex = 9;
@@ -155,7 +155,7 @@
             // 
             this.btnReport.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnReport.Location = new System.Drawing.Point(408, 255);
-            this.btnReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReport.Margin = new System.Windows.Forms.Padding(2);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(95, 31);
             this.btnReport.TabIndex = 10;
@@ -190,7 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -205,7 +205,7 @@
             this.Controls.Add(this.btnMonthPay);
             this.Controls.Add(this.txtBoxDollar);
             this.Controls.Add(this.lab1Name);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
             this.Text = "貸款金額計算";
             this.Load += new System.EventHandler(this.Form2_Load);
