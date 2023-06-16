@@ -29,9 +29,6 @@ namespace HW_Form
 
         private void btnCoffee_Click(object sender, EventArgs e)
         {
-            
-           
-           
             countC++;
             Sum += 120;
             txtTotalP.Text = "NT$" + (countC * 120+SumB+SumG+SumCo);
@@ -42,19 +39,11 @@ namespace HW_Form
             {
                 txtShopList.Clear();
             }
-           
             txtShopListResult += bar.Name + " x " + countC + "共 NT$" + bar.Total + "元";
-
-            labCoffee.Text = txtShopListResult+ "\n";//+"咖啡Coffee x1,共 NT$120元";
-            //Sum = txtShopList.Text;
-
-
+            labCoffee.Text = txtShopListResult+ "\n";
         }
-
         private void btnBlack_Click(object sender, EventArgs e)
-        {
-           
-            
+        {          
             countB++;
             SumB += 100;
             txtTotalP.Text = "NT$" + (countB * 100 + Sum + SumG + SumCo);
@@ -65,17 +54,12 @@ namespace HW_Form
             {
                 txtShopList.Clear();
             }
-            txtShopListResult += barB.Name + " x " + countB + "共 NT$" + barB.Total + "元";
-           
-            labBlackTea.Text = txtShopListResult+ "\n";// +"紅茶Black Tea x1,共 NT$100元";
-
-            //SumB = txtShopList.Text;
+            txtShopListResult += barB.Name + " x " + countB + "共 NT$" + barB.Total + "元";           
+            labBlackTea.Text = txtShopListResult+ "\n";
         }
 
         private void btnGreen_Click(object sender, EventArgs e)
-        {
-            
-            
+        { 
             countG++;
             SumG += 100;    
             txtTotalP.Text = "NT$" + (countG * 100+ SumCo+ SumB+ Sum);
@@ -87,16 +71,11 @@ namespace HW_Form
                 txtShopList.Clear();
             }
             txtShopListResult += barG.Name + " x " + countG + "共 NT$" + barG.Total + "元";
-
-            labGreenTea.Text = txtShopListResult; //+ "綠茶Green Tea x1,共 NT$100元";
-            //SumG = txtShopList.Text;
-
+            labGreenTea.Text = txtShopListResult; 
         }
 
         private void btnCoco_Click(object sender, EventArgs e)
-        {
-            
-            
+        {   
             countCo++;
             SumCo += 110;
             txtTotalP.Text = "NT$"+ (countCo*110+ SumG+ SumB+Sum);
@@ -108,11 +87,8 @@ namespace HW_Form
                 txtShopList.Clear();
             }
             txtShopListResult += barC.Name + " x " + countCo + "共 NT$" + barC.Total + "元";
-
-            labCoco.Text = txtShopListResult; //+ "可可Coco x1,共 NT$110元";
-            //SumCo = txtShopList.Text;
+            labCoco.Text = txtShopListResult;
         }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtTotalP.Text = "NT$  0";
@@ -121,25 +97,14 @@ namespace HW_Form
             labBlackTea.Text = "";
             labGreenTea.Text = "";
             labCoco.Text = "";
-           
-
         }
-
         private void btnCash_Click(object sender, EventArgs e)
         {
-
             MessageBox.Show("總金額:" + txtTotalP.Text);
         }
-
         private void btnCCard_Click(object sender, EventArgs e)
-        {
-          
+        {          
             MessageBox.Show("總金額:" + txtTotalP.Text + Environment.NewLine+ "折扣後金額:NT$"+ TotalP*0.9);
-            
-          
-
-
         }
-
     }
 }
