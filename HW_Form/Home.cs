@@ -23,10 +23,7 @@ namespace HW_Form
             //frm1.TopLevel = false;
             //frm1.Parent = this.spiltContainer;
             frm1.Show();
-            //if (frm1.Parent.SelectNextControl = true)
-            //{
-            //    frm1.Close();
-            //}
+          
         }
 
         private void btnLoan_Click(object sender, EventArgs e)
